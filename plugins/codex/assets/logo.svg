@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="NetBird Admin community plugin">
+  <rect width="256" height="256" rx="48" fill="#102a43"/>
+  <path d="M64 178V78l128 100V78" fill="none" stroke="#5eead4" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#fff"><circle cx="64" cy="78" r="14"/><circle cx="64" cy="178" r="14"/><circle cx="192" cy="78" r="14"/><circle cx="192" cy="178" r="14"/></g>
+</svg>

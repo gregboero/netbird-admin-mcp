@@ -1,0 +1,17 @@
+{
+  "name": "gregboero-netbird",
+  "owner": {
+    "name": "gregboero"
+  },
+  "metadata": {
+    "description": "Community NetBird API administration with reviewed changes."
+  },
+  "plugins": [
+    {
+      "name": "netbird-admin",
+      "source": "./plugins/claude",
+      "description": "Community NetBird API administration with validated requests and approved previews.",
+      "version": "0.4.0"
+    }
+  ]
+}

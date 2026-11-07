@@ -1,0 +1,50 @@
+{
+  "name": "netbird-admin",
+  "version": "0.4.0",
+  "description": "Community NetBird API administration with validated requests and approved previews.",
+  "author": {
+    "name": "gregboero"
+  },
+  "homepage": "https://github.com/gregboero/netbird-admin-mcp",
+  "repository": "https://github.com/gregboero/netbird-admin-mcp",
+  "license": "MIT",
+  "keywords": [
+    "netbird",
+    "network",
+    "vpn",
+    "administration",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NETBIRD_URL": {
+        "type": "string",
+        "title": "NetBird HTTPS origin",
+        "description": "Your NetBird origin without /api."
+      },
+      "NETBIRD_PAT": {
+        "type": "string",
+        "title": "NetBird API token",
+        "description": "Configure through the platform secret settings."
+      },
+      "NETBIRD_SECRET_DIR": {
+        "type": "string",
+        "title": "Private response directory",
+        "description": "A writable private directory on the MCP runtime."
+      },
+      "NETBIRD_VAULT_KEY": {
+        "type": "string",
+        "title": "Response encryption key",
+        "description": "32 random bytes in base64. Keep in platform secret settings."
+      }
+    },
+    "required": [
+      "NETBIRD_URL",
+      "NETBIRD_PAT",
+      "NETBIRD_SECRET_DIR",
+      "NETBIRD_VAULT_KEY"
+    ]
+  }
+}

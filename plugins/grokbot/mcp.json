@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "netbird": {
+      "command": "node",
+      "args": [
+        "${CURSOR_PLUGIN_ROOT}/dist/server.mjs"
+      ],
+      "env": {
+        "NETBIRD_URL": "${NETBIRD_URL}",
+        "NETBIRD_PAT": "${NETBIRD_PAT}",
+        "NETBIRD_SECRET_DIR": "${NETBIRD_SECRET_DIR}",
+        "NETBIRD_VAULT_KEY": "${NETBIRD_VAULT_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "netbird-admin",
+  "version": "0.4.0",
+  "description": "Community NetBird API administration with validated requests and approved previews.",
+  "author": {
+    "name": "gregboero"
+  },
+  "homepage": "https://github.com/gregboero/netbird-admin-mcp",
+  "repository": "https://github.com/gregboero/netbird-admin-mcp",
+  "license": "MIT",
+  "keywords": [
+    "netbird",
+    "network",
+    "vpn",
+    "administration",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true
+    }
+  }
+}

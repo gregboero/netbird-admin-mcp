@@ -1,0 +1,13 @@
+node_modules/
+artifacts/
+coverage/
+.env
+.env.*
+!.env.example
+*.dpapi
+*.enc.json
+*.local.json
+*.log
+*.jsonl
+private/
+.DS_Store
