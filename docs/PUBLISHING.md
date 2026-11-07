@@ -2,6 +2,14 @@
 
 Publisher handle: gregboero. This is an independent community integration.
 
+## Release 0.4.0
+
+- Public source and downloadable packages are available in the GitHub release.
+- CI passed on Windows and Ubuntu with Node.js 22 and 24.
+- Claude plugin and marketplace validation passed in strict mode.
+- The official MCP SDK client passed isolated integration tests, and live reads plus a cancelled preview were checked against a self-hosted instance.
+- No official-store submission has been sent. OpenAI and Claude portal sign-in is pending. OpenAI local-MCP eligibility is unverified. Grok Bot requires publisher contact fields and an observed in-app test.
+
 ## Codex / OpenAI
 
 The repository is installable through its own Codex marketplace. A public-directory listing is a separate review.
